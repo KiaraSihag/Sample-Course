@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Tutor</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <div id="chat-container">
+
+
+        <!-- ==========================================
+             HEADER
+        =========================================== -->
+
+        <div id="header">
+
+            ASK YOUR AI TUTOR
+
+        </div>
+
+
+        <!-- ==========================================
+             CHAT MESSAGES
+        =========================================== -->
+
+        <div id="messages">
+
+
+            <!-- Initial AI message -->
+
+            <div class="ai-message">
+
+                <div class="ai-header">
+
+                    <img
+                        src="images/ai-tutor.png"
+                        alt="AI Tutor"
+                        class="message-icon ai-tutor-icon"
+                    >
+
+                    <span>AI Tutor</span>
+
+                </div>
+
+
+                <div class="ai-content">
+
+                    Hi!
+
+                    <br>
+
+                    I'm your AI Tutor. Ask me anything about this course and I'll do my best to help.
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <!-- ==========================================
+             INPUT AREA
+        =========================================== -->
+
+        <div id="input-area">
+
+
+            <!-- Question -->
+
+            <input
+                id="question"
+                type="text"
+                placeholder="Type your question..."
+                autocomplete="off"
+            >
+
+
+            <!-- Microphone -->
+
+            <button
+                id="micBtn"
+                type="button"
+                title="Voice input"
+                aria-label="Voice input"
+            >
+
+                <img
+                    src="images/microphone.png"
+                    alt="Microphone"
+                    class="input-icon microphone-icon"
+                >
+
+            </button>
+
+
+            <!-- Attachment -->
+
+            <button
+                id="attachBtn"
+                type="button"
+                title="Attach image"
+                aria-label="Attach image"
+            >
+
+                <img
+                    src="images/attachment.png"
+                    alt="Attach image"
+                    class="input-icon attachment-icon"
+                >
+
+            </button>
+
+
+            <!-- Hidden image selector -->
+
+            <input
+                id="imageInput"
+                type="file"
+                accept="image/*"
+                hidden
+            >
+
+
+            <!-- Send -->
+
+            <button
+                id="sendBtn"
+                type="button"
+            >
+
+                Send
+
+            </button>
+
+
+        </div>
+
+
+    </div>
+
+
+    <!-- ==========================================
+         MARKDOWN
+    =========================================== -->
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+
+    <!-- ==========================================
+         CHAT SCRIPT
+    =========================================== -->
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
