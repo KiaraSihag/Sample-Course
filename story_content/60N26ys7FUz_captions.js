@@ -1,0 +1,1 @@
+window.globalLoadJsAsset('story_content/60N26ys7FUz_captions.js', {"captions":[{"langCode":"en-US","data":"WEBVTT%0D%0A%0D%0ANOTE%0D%0AKind%3A%20captions%0D%0ASource%3A%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version%3A%203.125.37980.0%0D%0A%0D%0A00%3A00%3A00.000%20--%3E%2000%3A00%3A02.037%0D%0AUse%20this%20button%20to%20adjust%20the%20volume.%0D%0A%0D%0A"}]})
